@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Mail\ContactoForm;
+use Illuminate\Support\Mail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('sitio.pages.index');
 });
@@ -22,7 +24,11 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::group(['prefix' => 'sitio'], function (){
     Route::get('/index', [App\Http\Controllers\FrontEndController::class, 'index'])->name('sitio.index');
-    Route::get('/about', [App\Http\Controllers\FrontEndController::class, 'about'])->name('sitio.about');
-    Route::get('/blog', [App\Http\Controllers\FrontEndController::class, 'blog'])->name('sitio.blog');
-    Route::get('/services', [App\Http\Controllers\FrontEndController::class, 'services'])->name('sitio.services');
+    Route::get('/terminos', [App\Http\Controllers\FrontEndController::class, 'terminos'])->name('sitio.terminos');
+    Route::get('/condiciones', [App\Http\Controllers\FrontEndController::class, 'condiciones'])->name('sitio.condiciones');
+    Route::get('/soporte', [App\Http\Controllers\FrontEndController::class, 'soporte'])->name('sitio.soporte');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

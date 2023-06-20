@@ -1,0 +1,658 @@
+.soporte_top{
+  margin-top: 49px;
+  font-family: "Cabin";
+}
+.term_negritas{
+  font-weight: 700;
+}
+.title_h4{
+  margin-top: 1.3rem;
+  font-size: 19px;
+  font-family: "Cabin";
+  font-weight: 500;
+}
+
+.marg_term{
+  margin-left: 12px;
+}
+
+.sepa_body{
+  margin-top: 90px;
+
+}
+
+.img_ben{
+padding:  36px 36px 36px 36px;
+width: 100%;
+height: 200px;
+}
+
+.fondo_principal{
+  background-color: #E9E9E9;
+}
+.group_pasos{
+  margin-left: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.paso{
+  padding: 25px;
+  margin: 0px 10px;
+  box-shadow: 0px 0px 20px rgb(135, 141, 214, 0.3);
+  margin-top: 60px;
+}
+
+.paso img{
+  margin-top: -75px;
+  width: 14%;
+}
+
+.cent-img
+{
+  margin-top: 90px;
+
+}
+
+.img_pasos
+{
+  width: 85%;
+  margin-top: 70px;
+}
+
+.group_menu{
+  display: grid;
+  text-decoration: none;
+}
+
+.group_menu a{
+  text-decoration: none;
+  font-family: "Cabin";
+  color: #002060;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+.foot_text{
+  font-family: "Cabin";
+  color: #002060;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 9px;
+}
+
+
+.title_footer{
+  font-family: "Cabin";
+  color: #002060;
+  font-weight: 900;
+  font-size: 19px;
+  margin-bottom: 9px;
+}
+
+.icon_redes{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 90px;
+  color: #00A338;
+}
+
+a .foo_logo{
+  width: 55%;
+}
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+  .header.header-scrolled {
+    background: #cfcfcf;
+    padding: 15px 0;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  }
+  .header .logo {
+    line-height: 0;
+  }
+  .header .logo img {
+    max-height: 35px;
+    margin-right: 19px;
+  }
+
+/*--------------------------------------------------------------
+# Menú navegación
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+
+
+.menu nav img{
+  display: none;
+}
+
+.navbar {
+  padding: 0;
+}
+
+
+
+.navbar a {
+  position: relative;
+  margin-right: 23px;
+  font-family: "Cabin";
+}
+
+.separador {
+  margin-top: 9px;
+  
+}
+
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 19px;
+  font-weight: 700;
+  color: #002060;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #00A338;
+}
+
+.menu #btn_icon_menu{
+  display: none;
+}
+
+/*-Icono- */
+.navbar-toggler .navbar-toggler-icon{
+  color:#00A338;
+}
+
+
+/*--------------------------------------------------------------
+# Botones --
+--------------------------------------------------------------*/
+
+.hero {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+/*--------------------------------------------------------------
+# Banner - inicio --
+--------------------------------------------------------------*/
+
+
+  .contenedor_banner {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .contenedor_banner .banner{
+    background: linear-gradient(to bottom right, #d8d8d8, #4e4e4e);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px #e1e1e1;
+    overflow: hidden;
+  }
+
+  .contenedor_banner .banner .img_banner{
+    flex:1 1 310px;
+    padding: 15px;
+    text-align: center;
+
+  }
+
+  .contenedor_banner .banner .img_banner img{
+    width: 110%;
+    
+  }
+
+  .contenedor_banner .banner .cont_banner{
+    flex: 1 1 250px;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+  }
+
+
+
+
+.contenedor_banner .banner .cont_banner h1{
+  color: #002060;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Cabin";
+}
+
+.btn_banner{
+  background-color: #00A338;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid #00A338;
+  border-radius: 3rem;
+  transition: all 1s ease;
+  text-decoration: none;
+}
+
+.btn_banner:hover{
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1.1rem;
+  border: 2px solid #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Conocenos y servicios
+--------------------------------------------------------------*/
+.mar_con{
+  margin-top: 130px;
+}
+.separador_seccion{
+  margin-top: 7.3rem;
+}
+
+.txt_contenido{
+ font-family: "Cabin";
+ font-size: 17px;
+ font-weight: 340;
+}
+
+.alinear{
+  vertical-align: middle;
+}
+
+.a1{
+ width: 100%;
+}
+
+.card_ser{
+  padding: 1px 11px 1px 11px;
+  box-shadow: 0px 0px 20px rgba(227, 227, 227, 0.3);
+  margin-bottom: 13px;
+}
+
+/*-servicios- */
+.btn-google_play {
+  width: 40%;
+}
+
+.text_sep{
+  margin-top: 85px;
+}
+/*--------------------------------------------------------------
+# Emisor e intermediario
+--------------------------------------------------------------*/
+.fondo_emint{
+  background-color: #ffffff;
+  padding: 40px 40px 40px 40px;
+}
+
+.cont_emi{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title_emi{
+  font-size: 39px;
+  font-weight: bold;
+  color: #002060;
+  font-family: "Cabin";
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.txt_emi{
+  margin-top: 1.3rem;
+  font-size: 20px;
+  font-family: "Cabin";
+  font-weight: 500;
+}
+
+.a2{
+  width: 59%;
+  margin-top: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.margen_emi{
+  margin-top: 5rem;
+}
+
+/*--------------------------------------------------------------
+# Sección Beneficio --
+--------------------------------------------------------------*/
+.card{
+  box-shadow: 2px 2px 10px rgb(167, 167, 167);
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+
+.card:hover{
+  cursor: pointer;
+}
+
+
+/*--------------------------------------------------------------
+.card:hover .card-text{
+  opacity: 1;
+  visibility: visible;
+}
+.card-text{
+  visibility: hidden;
+  opacity: 0;
+}
+
+--------------------------------------------------------------*/
+
+.card-body{
+  background: #ffffff00;
+  color: #ffffff;
+  bottom: 0px;
+  position: absolute;
+  height: 0px;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.card:hover .card-body{
+  height: 200px;
+  bottom: 0px;
+  background: #000000dc;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.margen_card{
+  margin-bottom: 3%;
+}
+
+
+.marg_bottom{
+  margin-bottom: 40px;
+}
+
+.card-title{
+  font-family: "Cabin";
+  font-size: 20px;
+  margin-top: 40px;
+}
+.card:hover .card-title
+{
+  margin-top: 58px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Sección Contacto --
+--------------------------------------------------------------*/
+.fondo_mapa{
+  margin-left: auto;
+  margin-right: auto;
+  background: #E9E9E9;
+  padding: 30px 0px 35px 0px;
+}
+
+.mapa{
+  display: block;
+  position: relative;
+  border-radius: .6rem;
+}
+
+
+.text_contac{
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  font-family: "Cabin";
+  margin-top: 40px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.text_contac::before{
+  content: '';
+  position: absolute;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background:#00A338;
+
+}
+
+#term_cond{
+  margin-top: 5px;
+  margin-right: 6px;
+  width: 15px;
+  height: 15px;
+}
+
+#term_cond:checked{
+  accent-color: #00A338;
+  width: 15px;
+  height: 15px;
+}
+
+.label_term{
+  font-weight: 500;
+  color: #002060;
+  margin-bottom: 14px;
+}
+
+.group_term{
+  margin-top: 12px;
+}
+
+
+.btn_form{
+  height: 50px;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg,#00A338, #004e1b);
+  font-family: "Cabin";
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  letter-spacing: 4px;
+  font-size: 18px;
+}
+
+.btn_form:hover{
+  background: linear-gradient(-135deg,#00A338, #004e1b);
+}
+
+.title_datos{
+  font-weight: bold;
+  font-family: "Cabin";
+  margin-top: 11px;
+}
+
+.conten{
+  max-width: 700px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1px 26px 5px 26px;
+  -webkit-border-radius: 5px;
+  margin-top: 10px;
+}
+
+.input-box input{
+  height: 45px;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 3px;
+}
+
+.input-box textarea{
+  width: 100%;
+  margin-top: 12px;
+}
+
+/*--------------------------------------------------------------
+# Texto --
+--------------------------------------------------------------*/
+
+.text1{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text_h1{
+  font-size: 38px;
+  font-weight: bold;
+  color: #002060;
+  font-family: "Cabin";
+  margin-top: 19px;
+}
+
+
+
+/*-------------------------------------------------------------
+# Footer --
+--------------------------------------------------------------*/
+.footer {
+  padding: 0 0 30px 0;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.footer .creditos a{
+  color: #00A338;
+}
+
+
+.footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  color: #002060;
+}
+
+.footer .creditos {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #002060;
+}
+
+/*--------------------------------------------------------------
+# Tipografia --
+--------------------------------------------------------------*/
+
+@font-face{
+  font-family: "Cabin";
+  src: url(/public/font/Cabin/Cabin-VariableFont_wdth,wght.ttf);
+}
+
+
+
+@media (max-width: 991px) {
+  .cent-img {
+    display:none;
+  }
+
+  .margin_phone{
+    padding: 30px 0px 30px 0px;
+  }
+
+  .card{
+    margin-top: 30px;
+  }
+
+  .card:hover .card-body{
+    width: 100%;
+  }
+
+  .title_footer{
+    margin-top: 40px;
+  }
+
+  .group_menu a{
+    margin-top: 5px;
+  }
+
+  .group_menu{
+      margin-bottom: 30px;
+  }
+  
+  .margen_footer{
+    margin-bottom: 100px;
+  }
+
+
+}
+
+@media (max-width: 428px) {
+  a .btn-google_play{
+    width: 70%;
+  }
+
+  .mar_con{
+    margin-top: 50px;
+  }
+
+  .header .logo img {
+    max-height: 26px;
+    margin-right: 10px;
+  }
+  
+ 
+}
+@media (max-width: 437px) {
+  .img_pasos{
+    width: 100%;
+  }
+  .paso img{
+      width: 29%;
+  }
+
+  a .foo_logo{
+    width: 30%;
+  }
+
+}
+@media (max-width: 612px) {
+  .contenedor_banner .banner .cont_banner{
+    margin-top: 20px;
+  }
+}
+
+
