@@ -9,7 +9,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav text-center">
         <li class="nav-item">
-          <a class="nav-link separador" aria-current="page" href="{{route('sitio.index')}}">Inicio</a>
+          <a class="nav-link separador" aria-current="page" href="{{route('sitio.index')}}#inicio">Inicio</a>
         </li>
         <li class="nav-item">
          <a class="nav-link separador" href="{{route('sitio.index')}}#nosotros">Nosotros</a>

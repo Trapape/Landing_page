@@ -1,2 +1,10 @@
 User-agent: *
-Disallow:
+Disallow: /vendor/
+Disallow: /node_modules/
+Disallow: /storage/
+Disallow: /bootstrap/
+Disallow: /storage/
+Disallow: /tests/
+Allow: /public/
+Allow: /resources/views/sitio/
+Allow: /routes/

@@ -10,5 +10,5 @@
     <link href="{{ asset('sitio/css/style.css') }}" rel="stylesheet" />
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
-    <link href="{{ asset('css/bootstrap-icons.css') }}" rel="stylesheet" />
+    
     
