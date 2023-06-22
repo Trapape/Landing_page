@@ -1,6 +1,7 @@
 @extends('sitio.layout.principal')
     @section('contenido')
 <div class="soporte_top">
+    
 <h1 class="text_h1 text-center">¿Necesitas ayuda?</h1>
     <section>
         <div class="container">
