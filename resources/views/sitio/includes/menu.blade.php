@@ -1,5 +1,5 @@
 
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg">
   <div class="container-fluid d-flex align-items-center justify-content-between">
       <a href="{{route('sitio.index')}}" class="logo d-flex align-items-center navbar-brand">
       <img src="{{ asset('imagenes/Logo-Trapape.png') }}" alt="Logo de Trapape"></a>

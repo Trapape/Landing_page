@@ -5,7 +5,7 @@
     </head>
     <body>
     <!-- Navigation-->
-    <header id="header" class="header fixed-top bg-body-tertiary">
+    <header id="header" class="header fixed-top">
           @include('sitio.includes.menu')
     </header>
         <body class="sepa_body">

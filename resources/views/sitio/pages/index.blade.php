@@ -173,7 +173,7 @@
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
-                        <img class="img_pasos" src="{{ asset('imagenes/pasos/paso2.svg') }}" alt="Publicación de una carga">
+                        <img class="img_pasos" src="{{ asset('imagenes/pasos/paso3.svg') }}" alt="Publicación de una carga">
                     </div>
                 </div>
 
@@ -193,7 +193,7 @@
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
-                        <img class="img_pasos" src="{{ asset('imagenes/pasos/paso3.svg') }}" alt="Solicitud de ofertas o precio propio">
+                        <img class="img_pasos" src="{{ asset('imagenes/pasos/paso2.svg') }}" alt="Solicitud de ofertas o precio propio">
                     </div>
                 </div>
 
@@ -292,7 +292,7 @@
                         <div class="card">
                             <img src="{{ asset('imagenes/icon/beneficios/ben7.svg') }}" class="card-img-top img_ben">
                             <div class="card-body">
-                                <h3 class="card-title">Servicio rápido, dinámico y fácil</h3>
+                                <h3 class="card-title">Servicio rápido, dinámico y fácil.</h3>
                             </div>
                         </div>
                     </div>
@@ -320,7 +320,7 @@
         </div>
     </section>
 <!-- Banners-->
-    <section class=" fondo_emint justify-content-center align-items-center separador_seccion">
+    <section class=" fondo_emint justify-content-center align-items-center separador_seccion" id="Banners_carrusel">
         <div class="container">
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
@@ -350,17 +350,17 @@
                     <div class="conten">
                         <h2 class="text_contac">Contactanos</h2>
                       
-                        <script data-b24-form="inline/9/irgga7" data-skip-moving="true">
+                        <script data-b24-form="inline/10/f6zo64" data-skip-moving="true">
                             (function(w,d,u){
                             var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
                             var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-                            })(window,document,'https://cdn.bitrix24.mx/b26004885/crm/form/loader_9.js');
+                            })(window,document,'https://cdn.bitrix24.mx/b25851517/crm/form/loader_10.js');
                         </script>
                     </div>
                 </div> 
 
                 <div class="col-lg-6 d-flex-column">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4389515473963!2d-96.124550624921!3d19.1760209820493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c3413966b7c705%3A0x92452f3538f71cf7!2sTrapape%20S.A.P.I%20de%20C.V.!5e0!3m2!1ses!2smx!4v1686685605586!5m2!1ses!2smx" width="100%" height="690" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.4389515473963!2d-96.124550624921!3d19.1760209820493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c3413966b7c705%3A0x92452f3538f71cf7!2sTrapape%20S.A.P.I%20de%20C.V.!5e0!3m2!1ses!2smx!4v1686685605586!5m2!1ses!2smx" width="100%" height="755" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
                 </div> 
                 
             </div>

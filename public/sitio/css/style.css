@@ -1,3 +1,7 @@
+
+.img_mant{
+  width: 100%;
+}
 .soporte_top{
   margin-top: 49px;
   font-family: "Cabin";
@@ -5,12 +9,7 @@
 .term_negritas{
   font-weight: 700;
 }
-.title_h4{
-  margin-top: 1.3rem;
-  font-size: 19px;
-  font-family: "Cabin";
-  font-weight: 500;
-}
+
 
 .marg_term{
   margin-left: 12px;
@@ -21,86 +20,8 @@
 
 }
 
-.img_ben{
-padding:  36px 36px 36px 36px;
-width: 100%;
-height: 200px;
-}
-
 .fondo_principal{
   background-color: #E9E9E9;
-}
-.group_pasos{
-  margin-left: auto;
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.paso{
-  padding: 25px;
-  margin: 0px 10px;
-  box-shadow: 0px 0px 20px rgb(135, 141, 214, 0.3);
-  margin-top: 60px;
-}
-
-.paso img{
-  margin-top: -75px;
-  width: 14%;
-}
-
-.cent-img
-{
-  margin-top: 90px;
-
-}
-
-.img_pasos
-{
-  width: 85%;
-  margin-top: 70px;
-}
-
-.group_menu{
-  display: grid;
-  text-decoration: none;
-}
-
-.group_menu a{
-  text-decoration: none;
-  font-family: "Cabin";
-  color: #002060;
-  font-weight: 500;
-  font-size: 17px;
-  margin-bottom: 6px;
-}
-
-.foot_text{
-  font-family: "Cabin";
-  color: #002060;
-  font-weight: 500;
-  font-size: 17px;
-  margin-bottom: 9px;
-}
-
-
-.title_footer{
-  font-family: "Cabin";
-  color: #002060;
-  font-weight: 900;
-  font-size: 19px;
-  margin-bottom: 9px;
-}
-
-.icon_redes{
-  width: 100%;
-  height: 30px;
-  margin-bottom: 90px;
-  color: #00A338;
-}
-
-a .foo_logo{
-  width: 55%;
 }
 
 
@@ -145,6 +66,7 @@ a .foo_logo{
 
 .navbar {
   padding: 0;
+  background: #fbfbfb;
 }
 
 
@@ -273,6 +195,16 @@ a .foo_logo{
   border: 2px solid #ffffff;
 }
 
+.conten{
+  max-width: 700px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 1px 26px 5px 26px;
+  -webkit-border-radius: 5px;
+  margin-top: 10px;
+}
+
 /*--------------------------------------------------------------
 # Conocenos y servicios
 --------------------------------------------------------------*/
@@ -349,7 +281,36 @@ a .foo_logo{
 .margen_emi{
   margin-top: 5rem;
 }
+.group_pasos{
+  margin-left: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/*-Sección como funciona- */
+.paso{
+  padding: 25px;
+  margin: 0px 10px;
+  box-shadow: 0px 0px 20px rgb(135, 141, 214, 0.3);
+  margin-top: 60px;
+}
 
+.paso img{
+  margin-top: -75px;
+  width: 14%;
+}
+
+.cent-img
+{
+  margin-top: 90px;
+
+}
+
+.img_pasos
+{
+  width: 85%;
+  margin-top: 70px;
+}
 /*--------------------------------------------------------------
 # Sección Beneficio --
 --------------------------------------------------------------*/
@@ -359,23 +320,16 @@ a .foo_logo{
   background-color: #ffffff;
 }
 
+.img_ben{
+  padding:  36px 36px 36px 36px;
+  width: 100%;
+  height: 200px;
+  }
+  
 
 .card:hover{
   cursor: pointer;
 }
-
-
-/*--------------------------------------------------------------
-.card:hover .card-text{
-  opacity: 1;
-  visibility: visible;
-}
-.card-text{
-  visibility: hidden;
-  opacity: 0;
-}
-
---------------------------------------------------------------*/
 
 .card-body{
   background: #ffffff00;
@@ -455,82 +409,9 @@ a .foo_logo{
 
 }
 
-#term_cond{
-  margin-top: 5px;
-  margin-right: 6px;
-  width: 15px;
-  height: 15px;
-}
-
-#term_cond:checked{
-  accent-color: #00A338;
-  width: 15px;
-  height: 15px;
-}
-
-.label_term{
-  font-weight: 500;
-  color: #002060;
-  margin-bottom: 14px;
-}
-
-.group_term{
-  margin-top: 12px;
-}
-
-
-.btn_form{
-  height: 50px;
-  width: 100%;
-  outline: none;
-  color: #fff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background: linear-gradient(135deg,#00A338, #004e1b);
-  font-family: "Cabin";
-  font-weight: 600;
-  border-radius: 4px;
-  border: none;
-  letter-spacing: 4px;
-  font-size: 18px;
-}
-
-.btn_form:hover{
-  background: linear-gradient(-135deg,#00A338, #004e1b);
-}
-
-.title_datos{
-  font-weight: bold;
-  font-family: "Cabin";
-  margin-top: 11px;
-}
-
-.conten{
-  max-width: 700px;
-  width: 100%;
-  background-color: #ffffff;
-  border-radius: 5px;
-  padding: 1px 26px 5px 26px;
-  -webkit-border-radius: 5px;
-  margin-top: 10px;
-}
-
-.input-box input{
-  height: 45px;
-  width: 100%;
-  margin-top: 12px;
-  margin-bottom: 3px;
-}
-
-.input-box textarea{
-  width: 100%;
-  margin-top: 12px;
-}
-
 /*--------------------------------------------------------------
 # Texto --
 --------------------------------------------------------------*/
-
 .text1{
   font-size: 18px;
   font-weight: bold;
@@ -544,7 +425,12 @@ a .foo_logo{
   margin-top: 19px;
 }
 
-
+.title_h4{
+  margin-top: 1.3rem;
+  font-size: 19px;
+  font-family: "Cabin";
+  font-weight: 500;
+}
 
 /*-------------------------------------------------------------
 # Footer --
@@ -553,6 +439,7 @@ a .foo_logo{
   padding: 0 0 30px 0;
   font-size: 14px;
   margin-top: 30px;
+  background: #fbfbfb;
 }
 
 .footer .creditos a{
@@ -566,12 +453,53 @@ a .foo_logo{
   color: #002060;
 }
 
-.footer .creditos {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #002060;
+.group_menu{
+  display: grid;
+  text-decoration: none;
 }
+
+.group_menu a{
+  text-decoration: none;
+  font-family: "Cabin";
+  color: #002060;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+.group_menu a:hover{
+  color: #00A338;
+  transition: 0.3s;
+
+}
+
+.foot_text{
+  font-family: "Cabin";
+  color: #002060;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 9px;
+}
+
+
+.title_footer{
+  font-family: "Cabin";
+  color: #002060;
+  font-weight: 900;
+  font-size: 19px;
+  margin-bottom: 9px;
+}
+
+.icon_redes{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 90px;
+
+}
+
+a .foo_logo{
+  width: 55%;
+}
+
 
 /*--------------------------------------------------------------
 # Tipografia --
@@ -583,10 +511,17 @@ a .foo_logo{
 }
 
 
+/*--------------------------------------------------------------
+# Para celulares --
+--------------------------------------------------------------*/
 
 @media (max-width: 991px) {
   .cent-img {
     display:none;
+  }
+
+  #Banners_carrusel{
+    display: none;
   }
 
   .margin_phone{
@@ -615,6 +550,10 @@ a .foo_logo{
   
   .margen_footer{
     margin-bottom: 100px;
+  }
+
+  .fondo_mapa{
+    background: #ffffff;
   }
 
 
@@ -655,4 +594,35 @@ a .foo_logo{
   }
 }
 
+/*--------------------------------------------------------------
+# Cuando este activado el modo oscuro en el usuario /en este caso siga manteniendo el mismo estilo --
+--------------------------------------------------------------*/
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background: #fbfbfb;
+  }
+  
+.group_menu a{
+  color: #002060;
+}
 
+.foot_text{
+  color: #002060;
+}
+
+
+.title_footer{
+
+  color: #002060;
+
+}
+
+.footer {
+  background: #fbfbfb;
+}
+.contenedor_banner .banner .cont_banner h1{
+  color: #002060;
+}
+
+
+}

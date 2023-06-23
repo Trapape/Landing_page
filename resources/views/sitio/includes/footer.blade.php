@@ -8,7 +8,7 @@
               <div class="col-lg-3 d-flex-column">
                     <div class="group_menu">
                       <p class="title_footer">Menu</p>
-                        <a href="{{route('sitio.index')}}">Inicio</a>
+                        <a href="{{route('sitio.index')}}#inicio">Inicio</a>
                         <a href="{{route('sitio.index')}}#nosotros">Nosotros</a>
                         <a href="{{route('sitio.index')}}#servicios">Servicios</a>
                         <a href="{{route('sitio.index')}}#emisor_intermediario">Intermediario</a>
@@ -20,7 +20,7 @@
 
               <div class="col-lg-4 d-flex-column margen_footer">
                       <p class="foot_text">Av. Ricardo Flores Magón 1624, Col. Zaragoza, 91910 Veracruz, Ver.</p> 
-                      <p class="foot_text">contact@trapape.com</p>
+                      <p class="foot_text">contacto@trapape.com</p>
                       <p class="foot_text">+52 229 511 0178</p>
               </div>  
 
