@@ -31,15 +31,14 @@
                 <div class="col-lg-6 d-flex-column justify-content-center">
                     <div class="text_sep">
                         <h2 class="text-center text_h1">¿Quienes somos?</h2>
-                        <p class="txt_contenido">Somos una empresa 100% mexicana que nace de la preocupación por las problemáticas y necesidades que enfrenta la logística del autotransporte de carga federal referente a la solución de millas vacías 
-                        y reducción de la huella ecológica en el sector, así como en la mejora del servicio prestado por los transportistas.</p>
-                        <p class="txt_contenido">Creemos en la tecnología como una excelente vía para aumentar la eficiencia y confianza del servicio dejando todo de manera simple para los usuarios de TraPAPE.</p>   
+                        <p class="txt_contenido">Somos una empresa mexicana comprometida en revolucionar la logística del autotransporte de carga federal. Nos enfocamos en abordar los desafíos y necesidades actuales del sector, utilizamos tecnología innovadora para optimizar las rutas de transporte, reducir las millas vacías y disminuir la huella ecológica. 
+                        <p class="txt_contenido">Creemos en la simplicidad y conveniencia al contratar servicios de transporte a través de nuestra aplicación segura y fácil de usar.</p>   
                         <p class="txt_contenido">Estamos convencidos que nuestro método innovador va a ser de agrado para empresas generadoras de carga, intermediarios logísticos, agentes aduanales y autotransportistas
                         de carga dando resultados satisfactorios en el ámbito económico, ecológico y puntualidad en el servicio.</p> 
                     </div>
                 </div>  
                 <div class="col-lg-6 d-flex-column">
-                     <img class="a1" src="{{ asset('imagenes/tracto_1.png') }}" alt="Optimiza tus operaciones y reduce costos con TraPAPE">
+                     <img class="a1" src="{{ asset('imagenes/tracto_2.png') }}" alt="Optimiza tus operaciones y reduce costos con TraPAPE">
                 </div> 
             </div>
         </div>
@@ -62,7 +61,7 @@
                         </p>  
 
                         <div class="text-center">
-                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.trapape.consig"><img class="btn-google_play" src="{{ asset('imagenes/icon/btn-google_play.svg') }}" alt="Botón para ir a GooglePlay"></a> 
+                        <a target="_blank" href='https://play.google.com/store/apps/details?id=com.trapape.consig&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="btn-google_play" alt='Disponible en Google Play' src='https://play.google.com/intl/es-419/badges/static/images/badges/es-419_badge_web_generic.png'/></a> 
                         </div>
                         
                     </div>
@@ -131,7 +130,7 @@
         </div>
     </section>
 
-    <section class="justify-content-center align-items-center separador_seccion  fondo_emint">
+    <section class="justify-content-center align-items-center separador_seccion fondo_emint">
         <div class="container">
             <h2 class="text_h1 text-center">¿Cómo funciona?</h2>
 

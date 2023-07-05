@@ -6,19 +6,20 @@ use Illuminate\Http\Request;
 
 class FrontEndController extends Controller
 {
-    function index(){
+    public function index(){
         return view('sitio.pages.index');
     }
-    function terminos(){
+    public function terminos(){
 
         return view('sitio.pages.terminos');
     }
-    function condiciones(){
+    public function condiciones(){
 
         return view('sitio.pages.condiciones');
     }
-    function soporte(){
+    public function soporte(){
 
         return view('sitio.pages.soporte');
     }
+
 }

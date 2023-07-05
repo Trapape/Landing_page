@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Mail\ContactoForm;
-use Illuminate\Support\Mail;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

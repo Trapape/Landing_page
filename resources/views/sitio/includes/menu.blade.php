@@ -1,5 +1,5 @@
 
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-xxl">
   <div class="container-fluid d-flex align-items-center justify-content-between">
       <a href="{{route('sitio.index')}}" class="logo d-flex align-items-center navbar-brand">
       <img src="{{ asset('imagenes/Logo-Trapape.png') }}" alt="Logo de Trapape"></a>
@@ -25,7 +25,20 @@
         </li>
         <li class="nav-item">
         <a class="nav-link separador" href="{{route('sitio.index')}}#contacto" > <button type="button"class="btn btn-outline-success"><span class="Cabin_SemiCondensed-SemiBold text1">Contacto</span></button></a>
-        </li>   
+        </li>  
+        <li class="red_sepa"></li>
+        <div class="colu">
+          <div class="nav-item">
+            <a target="_blank" href="https://www.facebook.com/Trapapemx?mibextid=ZbWKwL"><img class="redes" src="{{ asset('imagenes/icon/facebook2.svg') }}" alt="Icono de Facebook"></a>
+          </div>
+          <div class="nav-item">
+            <a target="_blank" href="https://mx.linkedin.com/company/trapapemx"><img class="redes" src="{{ asset('imagenes/icon/linkedin2.svg') }}" alt="Icono de Linkedin"></a>
+          </div>
+          <div class="nav-item">
+            <a target="_blank" href="https://www.youtube.com/@trapApE_"><img class="redes" src="{{ asset('imagenes/icon/youtube2.svg') }}" alt="Icono de Youtube"></a>
+          </div>
+        </div>
+      </ul> 
     </div>
 
     
