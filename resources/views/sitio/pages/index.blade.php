@@ -14,7 +14,7 @@
                         </div>
 
                         <div class="img_banner">
-                            <img src="{{ asset('imagenes/banners/banner_principal.png') }}" alt="Conectamos empresas, intermediarios y transportistas con solo unos clics.">
+                            <img src="{{ asset('imagenes/banners/banner_principal.webp') }}" alt="Conectamos empresas, intermediarios y transportistas con solo unos clics.">
                         </div>
                 </div>
         </div>  
@@ -38,7 +38,7 @@
                     </div>
                 </div>  
                 <div class="col-lg-6 d-flex-column">
-                     <img class="a1" src="{{ asset('imagenes/tracto_2.png') }}" alt="Optimiza tus operaciones y reduce costos con TraPAPE">
+                     <img class="a1" src="{{ asset('imagenes/tracto_2.webp') }}" alt="Optimiza tus operaciones y reduce costos con TraPAPE">
                 </div> 
             </div>
         </div>
@@ -139,7 +139,7 @@
                 <div class="row margin_phone">
                     <div class="col-lg-4 d-flex-column text-center">
                         <div class="paso">
-                            <img src="{{ asset('imagenes/icon/Icon-num1.svg') }}">
+                            <img src="{{ asset('imagenes/icon/Icon-num1.svg') }}" alt="">
                             <h3>Registro.</h3>
                             <p>
                                 Acceda a la aplicación y creé una cuenta, complete el formulario de registro con su información personal requerida.
@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
-                        <img  class="cent-img" src="{{ asset('imagenes/icon/Linea_pasos.svg') }}">
+                        <img  class="cent-img" src="{{ asset('imagenes/icon/Linea_pasos.svg') }}" alt="">
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
@@ -159,7 +159,7 @@
                 <div class="row margin_phone">
                     <div class="col-lg-4 d-flex-column text-center">
                         <div class="paso">
-                            <img src="{{ asset('imagenes/icon/Icon-num2.svg') }}">
+                            <img src="{{ asset('imagenes/icon/Icon-num2.svg') }}" alt="">
                             <h3>Publicar una carga.</h3>
                             <p>
                                 Busque la opción "Publicar nueva carga", y complete los detalles especificos de su carga, entre más especifica sea su descripcion más ofertas puede recibir. 
@@ -168,7 +168,7 @@
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
-                        <img  class="cent-img" src="{{ asset('imagenes/icon/Linea_pasos.svg') }}">
+                        <img  class="cent-img" src="{{ asset('imagenes/icon/Linea_pasos.svg') }}" alt="">
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
@@ -179,7 +179,7 @@
                 <div class="row margin_phone">
                     <div class="col-lg-4 d-flex-column text-center">
                         <div class="paso">
-                            <img src="{{ asset('imagenes/icon/Icon-num3.svg') }}">
+                            <img src="{{ asset('imagenes/icon/Icon-num3.svg') }}" alt="">
                             <h3>Precio y opciones de oferta.</h3>
                             <p>
                                  Decide si desea ofrecer un precio propio o solicitar ofertas competitivas.
@@ -188,7 +188,7 @@
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
-                        <img  class="cent-img" src="{{ asset('imagenes/icon/Linea_pasos.svg') }}">
+                        <img  class="cent-img" src="{{ asset('imagenes/icon/Linea_pasos.svg') }}" alt="">
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
@@ -199,7 +199,7 @@
                 <div class="row margin_phone">
                     <div class="col-lg-4 d-flex-column text-center">
                         <div class="paso">
-                            <img src="{{ asset('imagenes/icon/Icon-num4.svg') }}">
+                            <img src="{{ asset('imagenes/icon/Icon-num4.svg') }}" alt="">
                             <h3> Confirmación y publicación.</h3>
                                 <p>
                                      Antes de publicar la carga, revisa cuidadosamente todos los detalles proporcionados. Una vez confirmada, la carga estará disponible para que los transportistas interesados la vean y ofrezcan sus servicios.
@@ -208,7 +208,7 @@
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
-                        <img  class="cent-img" src="{{ asset('imagenes/icon/Linea_pasos.svg') }}">
+                        <img  class="cent-img" src="{{ asset('imagenes/icon/Linea_pasos.svg') }}" alt="">
                     </div>
 
                     <div class="col-lg-4 d-flex-column text-center">
@@ -230,7 +230,7 @@
                 <div class="row justify-content-center marg_bottom">
                     <div class="col-lg-2 d-flex-column text-center">
                         <div class="card">
-                            <img src="{{ asset('imagenes/icon/beneficios/ben1.svg') }}" class="card-img-top img_ben">
+                            <img src="{{ asset('imagenes/icon/beneficios/ben1.svg') }}" class="card-img-top img_ben" alt="">
                             <div class="card-body">
                                 <h3 class="card-title">Comunicación eficiente en un solo lugar.</h3>
                             </div>
@@ -239,7 +239,7 @@
 
                     <div class="col-lg-2 d-flex-column text-center">
                         <div class="card">
-                            <img src="{{ asset('imagenes/icon/beneficios/ben2.svg') }}" class="card-img-top img_ben">
+                            <img src="{{ asset('imagenes/icon/beneficios/ben2.svg') }}" class="card-img-top img_ben" alt="">
                             <div class="card-body">
                                 <h3 class="card-title">Mayor red de transportistas.</h3>
                             </div>
@@ -248,7 +248,7 @@
 
                     <div class="col-lg-2 d-flex-column text-center">
                         <div class="card">
-                            <img src="{{ asset('imagenes/icon/beneficios/ben3.svg') }}" class="card-img-top img_ben">
+                            <img src="{{ asset('imagenes/icon/beneficios/ben3.svg') }}" class="card-img-top img_ben" alt="">
                             <div class="card-body">
                                 <h3 class="card-title">Cliente final informado.</h3>
                             </div>
@@ -257,7 +257,7 @@
 
                     <div class="col-lg-2 d-flex-column text-center">
                         <div class="card">
-                            <img src="{{ asset('imagenes/icon/beneficios/ben4.svg') }}" class="card-img-top img_ben">
+                            <img src="{{ asset('imagenes/icon/beneficios/ben4.svg') }}" class="card-img-top img_ben" alt="">
                             <div class="card-body">
                                 <h3 class="card-title">Notificaciones automáticas.</h3>
                             </div>
@@ -266,7 +266,7 @@
 
                     <div class="col-lg-2 d-flex-column text-center">
                         <div class="card">
-                            <img src="{{ asset('imagenes/icon/beneficios/ben5.svg') }}" class="card-img-top img_ben">
+                            <img src="{{ asset('imagenes/icon/beneficios/ben5.svg') }}" class="card-img-top img_ben" alt="">
                             <div class="card-body">
                                 <h3 class="card-title">Envía mercancías con unos cuantos clics.</h3>
                             </div>
@@ -278,7 +278,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-2 d-flex-column text-center">
                         <div class="card">
-                            <img src="{{ asset('imagenes/icon/beneficios/ben6.svg') }}" class="card-img-top img_ben">
+                            <img src="{{ asset('imagenes/icon/beneficios/ben6.svg') }}" class="card-img-top img_ben" alt="">
                             <div class="card-body">
                                 <h3 class="card-title">Transparencia de la información.</h3>
                             </div>
@@ -289,7 +289,7 @@
 
                     <div class="col-lg-2 d-flex-column text-center">
                         <div class="card">
-                            <img src="{{ asset('imagenes/icon/beneficios/ben7.svg') }}" class="card-img-top img_ben">
+                            <img src="{{ asset('imagenes/icon/beneficios/ben7.svg') }}" class="card-img-top img_ben" alt="">
                             <div class="card-body">
                                 <h3 class="card-title">Servicio rápido, dinámico y fácil.</h3>
                             </div>
@@ -298,7 +298,7 @@
 
                     <div class="col-lg-2 d-flex-column text-center">
                         <div class="card">
-                            <img src="{{ asset('imagenes/icon/beneficios/ben8.svg') }}" class="card-img-top img_ben">
+                            <img src="{{ asset('imagenes/icon/beneficios/ben8.svg') }}" class="card-img-top img_ben" alt="">
                             <div class="card-body">
                                 <h3 class="card-title">Rastreo 24/7 en tiempo real.</h3>
                             </div>
@@ -307,7 +307,7 @@
 
                     <div class="col-lg-2 d-flex-column text-center">
                         <div class="card">
-                            <img src="{{ asset('imagenes/icon/beneficios/ben9.svg') }}" class="card-img-top img_ben">
+                            <img src="{{ asset('imagenes/icon/beneficios/ben9.svg') }}" class="card-img-top img_ben" alt="">
                             <div class="card-body">
                                 <h3 class="card-title">Menos contaminación.</h3>
                             </div>
@@ -324,10 +324,10 @@
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="{{ asset('imagenes/banners/carrusel1.png') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('imagenes/banners/carrusel1.webp') }}" class="d-block w-100" alt="">
                 </div>
                 <div class="carousel-item">
-                <img src="{{ asset('imagenes/banners/carrusel2.png') }}" class="d-block w-100" alt="...">
+                <img src="{{ asset('imagenes/banners/carrusel2.webp') }}" class="d-block w-100" alt="">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -349,11 +349,11 @@
                     <div class="conten">
                         <h2 class="text_contac">Contactanos</h2>
                       
-                        <script data-b24-form="inline/10/f6zo64" data-skip-moving="true">
-                            (function(w,d,u){
-                            var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
-                            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-                            })(window,document,'https://cdn.bitrix24.mx/b25851517/crm/form/loader_10.js');
+                        <script data-b24-form="inline/14/mmf3ef" data-skip-moving="true">
+                        (function(w,d,u){
+                        var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);
+                        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+                        })(window,document,'https://cdn.bitrix24.mx/b25851517/crm/form/loader_14.js');
                         </script>
                     </div>
                 </div> 

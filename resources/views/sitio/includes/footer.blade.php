@@ -3,7 +3,7 @@
 
               <div class="col-lg-3 d-flex-column">
                   <a href="{{route('sitio.index')}}"><img class="foo_logo" src="{{ asset('imagenes/Logo-Trapape.png') }}" alt="Logo de Trapape"></a>
-                  <img class="a2" src="{{ asset('imagenes/tracto_3.png') }}" alt="">
+                  <img class="a2" src="{{ asset('imagenes/tracto_3.webp') }}" alt="">
               </div> 
 
               <div class="col-lg-3 d-flex-column">

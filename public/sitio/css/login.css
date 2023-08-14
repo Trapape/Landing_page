@@ -1,0 +1,63 @@
+.fondo_trap{
+    background-image: url(../../imagenes/banners/Login_carro.png);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.logo_trap{
+    width: 20%;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 12px;
+}
+
+.card-header{
+    font-family: "Cabin";
+    font-size: 25px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-weight:900;
+  }
+
+body{
+    background-color: rgb(83, 83, 83);
+}
+
+.card-body{
+    color: aliceblue;
+    font-weight:600;
+}
+
+.btn-link{
+    color: aliceblue;
+}
+
+.btn-link:hover{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: "Cabin";
+    src: url(../../font/Cabin/Cabin-VariableFont_wdth\,wght.ttf);
+  }
+
+.nav-item a{
+    font-family: "Cabin";
+    font-size: 19px;
+    color: #002060;
+    font-weight: 600;
+}
+
+.nav-item a:hover{
+ 
+    color: #00A338;
+    font-weight: 700;
+}

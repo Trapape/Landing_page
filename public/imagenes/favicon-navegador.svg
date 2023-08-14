@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#1D9433;}
-	.st1{fill:#FFFFFF;}
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#1D9433;}
+	.st2{fill:#FFFFFF;}
 </style>
-<polygon class="st0" points="111.54,300.61 68.98,387.09 4.69,387.09 83.07,238.83 138.25,134.46 203.9,134.46 247.36,387.09 
-	184.88,387.09 172.66,300.16 "/>
-<polygon class="st1" points="137.12,249.45 165.64,249.45 159.53,208.82 "/>
-<polygon class="st0" points="319.39,134.46 274.57,387.09 468.34,387.09 477.4,335.48 342.03,335.93 368.29,184.26 497.32,184.26 
-	507.31,134.46 "/>
-<polygon class="st0" points="122.76,247.2 428.78,247.71 432.71,217.83 465,268.76 420.49,325.81 422.89,300.68 103.66,300.34 
-	80.1,301.02 109.55,244.65 "/>
+<circle class="st0" cx="64" cy="63.7" r="62"/>
+<polygon class="st1" points="33.4,70.7 24.4,89 10.7,89 27.4,57.6 39,35.5 53,35.5 62.2,89 48.9,89 46.3,70.6 "/>
+<polygon class="st2" points="38.8,59.9 44.9,59.9 43.6,51.3 "/>
+<polygon class="st1" points="77.4,35.5 67.9,89 109,89 110.9,78.1 82.2,78.2 87.8,46 115.1,46 117.3,35.5 "/>
+<polygon class="st1" points="35.8,59.4 100.6,59.5 101.4,53.2 108.3,64 98.9,76 99.4,70.7 31.7,70.6 26.7,70.8 33,58.8 "/>
 </svg>

@@ -115,7 +115,7 @@
   margin-top: 13px;
 }
 .red_sepa{
-  margin-left: 105px;
+  margin-left: 50px;
 }
 /*--------------------------------------------------------------
 # Botones --
@@ -213,6 +213,7 @@
 .mar_con{
   margin-top: 130px;
 }
+
 .separador_seccion{
   margin-top: 6rem;
 }
@@ -434,6 +435,19 @@
   font-weight: 500;
 }
 
+.text-notification{
+  font-family: "Cabin";
+  font-size: 21px;
+  font-weight: 440;
+  color: #000000;
+}
+.text-notification a{
+  text-decoration: none;
+  font-weight:700;
+  color: #00A338;
+  margin-left: 5px;
+}
+
 /*-------------------------------------------------------------
 # Footer --
 --------------------------------------------------------------*/
@@ -510,6 +524,168 @@ a .foo_logo{
   flex-direction: row;
   display: flex;
 }
+/*--------------------------------------------------------------
+# Blog --
+--------------------------------------------------------------*/
+.img_arti{
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 16px;
+}
+.titulo_blog{
+  margin-top: 40px;
+  margin-bottom: 33px;
+}
+.img_notifi{
+  width: 8%;
+  height: 8%;
+  margin-right: 30px;
+}
+
+.group_noti{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contenido_blog article{
+  width: 100%;
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+}
+.cont_articulo{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+}
+
+.title_articulo{
+  font-size: 39px;
+  font-weight: bold;
+  font-family: "Cabin";
+  margin-left: 17px;
+  
+}
+.title_articulo a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.etiqueta{
+  text-decoration: none;
+  color: #e4e4e4;
+  padding: 7px 7px 7px 7px;
+  border-radius: 6px;
+}
+.cont_etiqueta{
+  margin-left: 20px;
+  margin-bottom: 14px;
+}
+aside ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+aside ul li img{
+  width: 100%;
+}
+
+aside{
+  width: 65%;
+}
+
+.cont_arti{
+  padding: 13px 13px 13px 13px;
+  box-shadow: 3px 3px 3px 3px #ababab54;
+  width: 612px;
+  height: 690px;
+  margin-bottom: 23px;
+}
+.filtrado{
+  font-family: "Cabin";
+  font-size: 25px;
+  font-weight: 580;
+  text-align: justify;
+}
+.txt_art{
+  font-family: "Cabin";
+  font-size: 19px;
+  font-weight: 380;
+  text-align: justify;
+ }
+
+ article a{
+  text-decoration: none;
+ }
+
+.paginador{
+  width: 27%;
+  display: flex;
+  flex-direction: row;
+}
+
+.title_categoria{
+ 
+    font-family: "Cabin";
+    font-size: 27px;
+    font-weight: 540;
+    color: #002060;
+    text-align: justify;
+   
+}
+/*--------------------------------------------------------------*/
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+}
+
+.page-item {
+  margin-right: 5px;
+}
+.page-item a{
+  color: #002060;
+  font-weight: 600;
+}
+.page-item a:hover{
+  color: #00A338;
+  font-weight: 600;
+}
+.page-link {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+.page-link:hover {
+  background-color: #ebebeb;
+}
+
+.page-item.active .page-link {
+  background-color: #00A338;
+  color: #fff;
+}
+
+.page-item.disabled .page-link {
+  pointer-events: none;
+  cursor: default;
+}
+
+
 
 /*--------------------------------------------------------------
 # Tipografia --
@@ -517,7 +693,7 @@ a .foo_logo{
 
 @font-face{
   font-family: "Cabin";
-  src: url(/public/font/Cabin/Cabin-VariableFont_wdth,wght.ttf);
+  src: url(../../font/Cabin/Cabin-VariableFont_wdth\,wght.ttf);
 }
 
 
@@ -567,6 +743,10 @@ a .foo_logo{
   }
   .btn-google_play{
     width: 55%;
+  }
+
+  .cont_emi{
+    margin-top: 45px;
   }
 
 }

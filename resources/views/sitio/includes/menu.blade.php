@@ -21,6 +21,9 @@
         <a class="nav-link separador" href="{{route('sitio.index')}}#emisor_intermediario">Emisor o intermediario</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link separador" href="{{route('sitio.blog')}}">Blog</a>
+          </li>
+        <li class="nav-item">
         <a class="nav-link separador" href="{{route('sitio.soporte')}}">Soporte</a>
         </li>
         <li class="nav-item">
