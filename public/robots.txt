@@ -5,6 +5,9 @@ Disallow: /storage/
 Disallow: /bootstrap/
 Disallow: /storage/
 Disallow: /tests/
+Disallow: /routes/admin.php$
+Disallow: /resources/views/sitio/admin/
+Disallow: /resources/views/sitio/livewire/
 Allow: /public/
 Allow: /resources/views/sitio/
 Allow: /routes/
